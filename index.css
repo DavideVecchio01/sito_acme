@@ -1,3 +1,54 @@
-div{
-  background-color:white;
+.background {
+  background-image: url(https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Design-Guide-IO_3X2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  margin: 0px;
+}
+.striscia {
+  position: fixed;
+  height: 70px;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid red;
+  opacity: 0.8;
+}
+.bandiere {
+  width: 60px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 14px;
+  opacity: 1;
+}
+#italia {
+  margin-left: 100px;
+}
+#ACME {
+  margin-left: 400px;
+  margin-top: -45px;
+  color: white;
+}
+#opendayonline {
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 1px;
+  max-width: 1200px;
+}
+#opendayinterattivo {
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: grey;
+  border-radius: 15px;
+  padding: 1px;
+  max-width: 1200px;
+}
+
+}
+#scrittaacme {
+  margin: center;
 }
