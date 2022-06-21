@@ -9,6 +9,7 @@
   font-family: bodoni;
 }
 .banda {
+  position:fixed;
   height: 60px;
   background-color: black;
   width: 100%;
@@ -141,4 +142,33 @@ footer {
   opacity: 0.8;
   font-size:15px;
   text-align:center;
+}
+.top {
+  color: white;
+  background-color: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+}
+#bottonecookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  font:times new roman;
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#chiusura{
+  font-size: 15px;
+  margin-left: 185px;
 }
