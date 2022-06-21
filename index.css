@@ -90,6 +90,15 @@ a {
   border-radius:40px;
 }
 
+#artivisive {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+  border: 3px solid white;
+  border-radius:40px;
+}
+
 h2[welcome] {
   margin: 70px 0px 70px 0px;
   border-left: 10px solid hsl(0, 100%, 70%);
@@ -103,7 +112,15 @@ h2[welcome] {
   height: 300px;
   padding: 2px;
   margin: auto;
-}
+  }
+
+.scuola_di_grafica {
+  height: 300px;
+  padding: 2px;
+  margin: auto;
+  margin-top: 60px;
+  }
+
 #dipartimento {
   height: auto;
   border: 3px solid white;
@@ -172,9 +189,13 @@ footer {
   font-size: 15px;
   margin-left: 185px;
 }
-#map {border: white;) !important;
+#map {border: 4px solid white;
+  border-radius:40px;
     width: 100%;
     height: 330px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;}
+    text-align: center;
+min-width: 800px;
+  max-width: 1140px;
+ margin-top: 20px;}
