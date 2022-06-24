@@ -1,240 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
+.background {
+  background-image: url(https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Design-Guide-IO_3X2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+}
+#font {
+  font-family: bodoni;
+}
+.banda {
+  position:fixed;
+  height: 60px;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid red;
+  opacity: 0.8;
+}
+.bandiere {
+  width: 60px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 14px;
+  opacity: 1;
+}
+#italia {
+  margin-left: 100px;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SitoAcme</title>
-</head>
-<link href="index.css" rel="stylesheet">
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<script>
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
-  </script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  
-<body class="background" id="font">
+#opendayonline {
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  padding: 1px;
+  max-width: 600px;
+}
+#opendayinte {
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  border-radius: 40px;
+  padding: 1px;
+  max-width: 600px;
+}
+#offertaformativa {
+  background-color: hsl(0, 0%, 6%);
+  height: auto;
+  border: 3px solid white;
+  border-radius:40px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.libro {
+  height: 100px;
+}
 
-  <div class=banda> <img id="italia" class="bandiere" alt="bandiera" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nationalflags.shop%2FWebRoot%2Fvilkasfi01%2FShops%2F2014080403%2F53E6%2F2F59%2FAA2F%2FDADE%2F1053%2F0A28%2F100B%2F0424%2F1280px-Flag_of_Italy.svg.png&f=1&nofb=1"></img>
-    <img class="bandiere" alt="bandiera" src="https://4.bp.blogspot.com/-Libu9kYAzJ0/XzPvB-0rxnI/AAAAAAAAsF8/PxAFlOhiHKYtyPNslko4pd5h_jYTEpvzACLcBGAsYHQ/s1600/union-jack.png"></img>
-    <img src="img/bandiera_cina.png" style="width:60px; height:40px; margin-left:20px; margin-top:14px; opacity:1;"> </div>
-  <center>
-<img  src="img/logo_acme.png" style="height:180px; margin-top:140px">
-     </center>
-  
-  <div style="height:150px;"></div>
-  <div id="opendayonline">
-    <h1>Open Day Online</h1>
-    <p>Tutte le informazioni per conoscere l'Accademia di Belle Arti ACME</p>
-  </div>
-  <div>
-    <div id="opendayinte">
-      <h1>Open Day Interattivo</h1>
-      <p>Clicca qui per iscriverti alla presentazione online</p>
-    </div>
-    <div id="offertaformativa" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f4d6.png" class="libro">
+.material-symbols-outlined {
+  font-size: 70px !important;
+}
+.titolo{
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  color: red
+}
+.paragrafo{
+  text-align: center;
+}
 
-          <span class="material-symbols-outlined">
-          </span>
-          <h3>OFFERTA FORMATIVA</h3>
-          <p>Una formazione globale per i professionisti in campo artistico e nella comunicazione per immagini <br><a href="#">(info)</a>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/23f0.png" class="sveglia">
-          <span class="material-symbols-outlined">
-          </span>
-          <h3>DURATA E TITOLI</h3>
-          <p>I corsi di studio prevedono un percorso formativo distinto in più cicli <br><a href="#">(info)</a>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <img src="https://images.emojiterra.com/google/android-10/512px/1f4b8.png" class="soldi">
-          <span class="material-symbols-outlined">
+a {
+  text-decoration: none;
+}
+.sveglia {
+  height: 100px;
+}
+.soldi {
+  height: 100px;
+}
+#welcome {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+  border: 3px solid white;
+  border-radius:40px;
+}
 
-          </span>
-          <h3>BORSE DI STUDIO</h3>
-          <p>Gli studenti ACME beneficiano dei contributi previsti dalla normativa e gestiti dall'Ente regionale
-            preposto <br><a href="#">(info)</a>
-          </p>
-        </div>
-      </div>
-    </div>
+#artivisive {
+  border-allign: center;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  height: auto;
+  border: 3px solid white;
+  border-radius:40px;
+}
 
-    <div id="welcome" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-6">
-          <h5>LA CREATIVITÀ È LA TUA PROFESSIONE</h5>
-          <h2 welcome>WELCOME TO ACME</h2>
-          <p>Accademia di Belle Arti ACME di Novara è un'istituzione di Alta Formazione Artistica che rilascia titoli accademici di I e II livello.</p>
-        </div>
-        <div id="video" class="col-sm-6">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/-cQk6kK7JVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
+h2[welcome] {
+  margin: 70px 0px 70px 0px;
+  border-left: 10px solid hsl(0, 100%, 70%);
+  padding-left: 20px;
+}
 
-  </div>
-  <div id="welcome" class="container mt-5">
-    <div class="row">
-      <div class="col-sm-6">
-        <h5>UN'AMPIA OFFERTA ARTISTICA</h5>
-        <h2 welcome>OFFERTA FORMATIVA</h2>
-        <p>3 dipartimenti, 6 scuole, 12 indirizzi
+#video {
+  padding:2px;
+}
 
-          per una moderna e completa formazione
+.scuola_di_grafica {
+  height: 300px;
+  padding: 2px;
+  margin: auto;
+  margin-top: 60px;
+  }
 
-          nel campo della comunicazione visiva</p>
-      </div>
-      <div class="col-sm-6">
-     <img  src="img/colori.jpg" style="height:300px; padding:2px; width:100%">
-      </div>
-    </div>
+#dipartimento {
+  height: auto;
+  border: 3px solid white;
+  min-width: 1000px;
+  max-width: 1000px;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  color: black;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+.liste {
+  margin: auto;
+  color: white;
+}
+.scuola {
+  text-align: center;
+  font-size: 24px;
+}
+#sfondo {
+  background-color: black;
+}
+#freccia.up{
+text-shadow: 0px 0px 10px black;
+}
+#freccia.up{
+text-shadow: 0px 0px 10px black;
+}
 
-  </div>
-  </div>
-   </div>
-
-  <div class="container mt-5;" id="welcome" style="margin-top:50px">
-      <div class="row"> 
-         <b><H1 class="titolo">
-           DIPARTIMENTO DI  ARTI VISIVE
-           </H1></b>
-        <div class="col-sm-6">
-       <p class="paragrafo">   SCUOLA DI PITTURA
-          </br> </br>
-- Fumetto e visual storytelling
-        </br>
-         - Pittura e nuove pratiche espressive
-   </p> 
-</div>
-<div class="col-sm-6">
- <p class="paragrafo">   SCUOLA DI GRAFICA
-          </br> </br>
-- Illustrazione, editoria e comunicazione      </p> 
-</div>
-</div>
-</div>
-  <div class="container mt-5;" id="welcome" style="margin-top:50px">
-      <div class="row"> 
-<H1 class="titolo" style="margin-TOP:40px">
-            DIPARTIMENTO DI PROGETTAZIONE E ARTI APPLICATE
-            </H1>
-<div class="col-sm-4">
-       <p class="paragrafo">   SCUOLA DI SCENOGRAFIA
-  </br> </br> </br>
-- Ambientazione per interni e progettazione di elementi d'arredo
-        </br>
-         - Ambientazione per esterni e progettazione del paesaggio
-   </p> 
-</div>
-
-<div class="col-sm-4">
-       <p class="paragrafo">   SCUOLA DI PROGETTAZIONE ARTISTICA PER L'IMPRESA 
-          </br> </br>
-- Design
-        </br>
-         - Fashion Design
-</br>
-         - Immagine d'impresa e strategie di comunicazione
-</br>
-         - Graphic Design e Art Direction
-   </p> 
-</div>
-
-<div class="col-sm-4">
-       <p class="paragrafo"> DIPARTIMENTO DI SCUOLA DI NUOVE TECNOLOGIE DELL'ARTE 
-          </br> </br>
-         - Linguaggi audiovisivi e tecniche dei media digitali
-        </br>
-         - Fotografia e linguaggi visuali
-
-   </p> 
-</div>
-</div>
-</div>
- <div class="container mt-5;" id="welcome" style="margin-top:50px">
-      <div class="row"> 
-<H1 class="titolo" style="margin-TOP:40px">
-           DIPARTIMENTO DI COMUNICAZIONE E DIDATTICA DELL'ARTE
-            </H1>
-<div class="col-sm-0">
-<p class="paragrafo">   SCUOLA DI COMUNICAZIONE E VALORIZZAZIONE </br>
-DEL PATRIMONIO ARTISTICO CONTEMPORANEO   
-          </br> </br>
-- Fumetto e visual storytelling
-</p>
-</div>
-          
-        </div>
-        </div>
-   </div>
-
- <div class="container mt-5;" id="welcome" style="margin-top:50px">
-      <div class="row"> <center>
-        <h1>DURATA E TITOLI</h1>
-          <h5>DURATA DEGLI STUDI E TITOLI RILASCIATI</h5>
-        <p>I Piani di studio dell'Accademia di Belle Arti sono soprattutto caratterizzati, rispetto alle tradizionali facoltà universitarie affini, dall'articolazione, con pari dignità, degli insegnamenti teorico scientifici con gli insegnamenti in laboratorio, entrambi finalizzati a concorrere alla formazione globale del professionista della comunicazione per immagini e, più in generale, in campo artistico.
-
-L'ordinamento e la tipologia dei titoli di studio rilasciati dall'Accademia di Belle Arti si riferiscono a corsi di studio che, nella nuova organizzazione universitaria dell'Alta Formazione Artistica e Musicale, prevedono un percorso formativo distinto in due cicli:
-
-il primo ciclo, a cui si accede con il diploma di secondo grado, ha durata triennale; permette il conseguimento del titolo di primo livello
-il secondo ciclo - biennio specialistico - consente agli studenti in possesso del titolo di primo livello o laurea con titolo affine, di completare gli studi per il conseguimento del titolo di secondo livello
-Gli insegnamenti di tutti gli indirizzi hanno alcune caratteristiche comuni: sono articolati in laboratori sperimentali, che caratterizzano il percorso in Accademia, tesi a sviluppare la creatività individuale, ed in corsi teorici/critici, propri delle facoltà universitarie, che approfondiscono i fondamenti storici e teorici dell'arte, della televisione, del cinema, con attenzione verso i campi della sociologia, dell'economia, dell'estetica e della storia e filosofia delle arti.
-
-Successivamente al conseguimento del titolo di studio di secondo livello, i corsi di perfezionamento (dottorato di ricerca e master) concludono il percorso scolastico.</p>
-        </center>
-          </div>
-   </div>
-
-</br>
-
-<div class="container mt-5;" id="welcome" style="margin-top:50px">
-      <div class="row"> <center>
-        <h1>BORSE DI STUDIO</h1>
-          <h5>BORSE DI STUDIO ED ALTRE PROVVIDENZE</h5>
-        <p>Gli studenti iscritti a questa Accademia beneficiano dei contributi e dei servizi offerti agli studenti universitari previsti dalla normativa e gestiti dall'Ente regionale per il diritto allo studio universitario (borse di studio, ristorazione, servizi abitativi ecc.) secondo le istruzioni indicate sulle guide regionali.
-
-Per maggiori informazioni visitate il sito: www.edisu.piemonte.it
-
- </p>
-        </center>
-          </div>
-   </div>
-
-</br>
-
-<center>
-<iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2798.854587066455!2d8.6137757!3d45.4525863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47865a24573b9d29%3A0x5064224377bd31e3!2sVia%20Costantino%20Porta%2C%2025%2C%2028100%20Novara%20NO!5e0!3m2!1sen!2sit!4v1654440794287!5m2!1sen!2sit"
-      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe></center>
-  <footer>
- © Sella srl - PI 01176320032 <br> Privacy Policy (ita eng 隐私政策) | Cookie Policy (ita eng 政策) <br>
-                              ACME Accademia di Belle Arti Europea dei Media <br>
-                              Address / 地址 Novara (Italy), via C. Porta 25
-                              Tel. / 电话 (+39) 0321.627101 / 628381 - Fax / 传真 (+39) 0321.35400
-                              <br>accademia@acmenovara.it             
-                        </footer>
-  <div id="bottonecookie">
-      <div id="cookie" >
-        <b id="chiusura" onclick="hideCookie()">X</b>
-        <b> IL SITO UTILIZZA COOKIE</b><br><br><i> 
-         Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.
-          </i>
-      </div>
-      <div id="bottone" onclick="showCookie()">
-        <i class="material-icons" style="font-size: 40px; color: white; background-color:none; border-radius:50px; padding: 5px">cookie</i>
-      </div>
-   </div>
- <script src="javascript.js"></script>
-</body>
-<div id="freccina">
-    <div onclick="scrollToTop()" class="top">
-      <i class="material-icons" style="font-size:35px;">arrow_drop_up</i>
-    </div>
-</html>
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+  opacity: 0.8;
+  font-size:15px;
+  text-align:center;
+}
+.top {
+  color: white;
+  background-color: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+}
+#bottonecookie {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+}
+#cookie{
+  font:times new roman;
+  color: white;
+  font-size:10px;
+  background-color: black;
+  margin: 2px solid white;
+  width: 200px;
+  padding: 15px;
+  display:none;
+}
+#chiusura{
+  font-size: 15px;
+  margin-left: 150px;
+}
+#map {border: 4px solid white;
+  border-radius:40px;
+    width: 100%;
+    height: 330px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+min-width: 800px;
+  max-width: 1140px;
+ margin-top: 20px;}
