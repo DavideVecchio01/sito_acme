@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-size: 100%;
   margin: 0px;
+  style:max-width:100%; height:auto;">
 }
 #font {
   font-family: bodoni;
@@ -107,9 +108,7 @@ h2[welcome] {
 }
 
 #video {
-  padding:1px;
-   width: 50%;
-  height: 10%;
+  padding:2px;
 }
 
 .scuola_di_grafica {
