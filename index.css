@@ -107,8 +107,9 @@ h2[welcome] {
 }
 
 #video {
-  padding:2px;
-  margin:auto;
+  padding:1px;
+   width: 50%;
+  height: 10%;
 }
 
 .scuola_di_grafica {
